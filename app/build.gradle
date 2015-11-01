@@ -15,7 +15,7 @@ android {
         applicationId "org.qii.weiciyuan"
         minSdkVersion 17
         targetSdkVersion 21
-        versionCode - 1
+        versionCode 1
         versionName null
     }
 
@@ -88,7 +88,7 @@ android {
             resValue "string", "weiciyuanOfficalWeiboName",
                     "org.qii.weiciyuan" + getApplicationIdSuffix() + ".mention://@四次元App"
             debuggable true
-            runProguard false
+            //runProguard false
             signingConfig signingConfigs.debug
         }
         release {
@@ -96,7 +96,7 @@ android {
             resValue "string", "weiciyuanOfficalWeiboName",
                     "org.qii.weiciyuan" + ".mention://@四次元App"
             debuggable false
-            runProguard false
+            //runProguard false
             signingConfig signingConfigs.release
         }
 
